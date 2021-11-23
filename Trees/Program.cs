@@ -8,11 +8,8 @@ namespace Trees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a task:(1 or 2)");
             Task2();
 
-            
-            
         }
 
         static void Task1()
