@@ -9,18 +9,7 @@ namespace Trees
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter a task:(1 or 2)");
-            switch (Console.ReadLine())
-            {
-                case "1":
-                    Task1();
-                    break;
-                case "2":
-                    Task2();
-                    break;
-                default:
-                    Main(null);
-                    break;
-            }
+            Task2();
 
             
             
